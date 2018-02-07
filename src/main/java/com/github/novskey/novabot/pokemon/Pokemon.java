@@ -151,7 +151,7 @@ public class Pokemon {
     }
 
     public static String getIcon(final int id) {
-        String url = "https://bitbucket.org/SkOODaT/skoodatshuffle/raw/master/";
+        String url = "https://bitbucket.org/anzmap/sprites/raw/HEAD/";
         if (id >= 2011) {
             final int form = id % 201;
             url = url +  "201_" + form;
